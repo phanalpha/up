@@ -1,0 +1,11 @@
+[package]
+name = "up"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.68"
+rustix = { version = "0.36.7", features = ["process"] }
+tokio = { version = "1.25.0", features = ["full"] }
